@@ -8,6 +8,7 @@ var Stack = function() {
   return newObject;
 };
 
+
 var stackMethods = {
   push: function(value) {
     this.storage[this.total] = value;
