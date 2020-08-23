@@ -5,7 +5,6 @@ var Queue = function() {
   this.total = 0;
   this.first = 0;
   this.storage = {};
-
 };
 
 Queue.prototype.enqueue = function(value) {
